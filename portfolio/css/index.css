@@ -1,8 +1,5 @@
 body{
-    background: #ad5389;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
 }
 h1{
     color: rgb(180, 63, 190);
@@ -15,13 +12,16 @@ img{
     background: beige;
     color:black;
 }
-#education{
+#education,.experience{
     background: #ad5389;
     padding-left: 5rem;
 }
 p{
     color:white;
 }
-#education h2{
-    color:rgb(22, 13, 13);
+#myhobbies{
+    background: white;
+}
+#myhobbies p{
+    color:black;
 }
